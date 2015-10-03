@@ -1,0 +1,20 @@
+Search:<input ng-model="query" type="text"/>
+<table>
+    <tr>
+        <th><a href="" ng-click="sortField='name'; reverse = !reverse">Island</a></th>
+        <th><a href="" ng-click="sortField='population'; reverse = !reverse">Population</a></th>
+        <th><a href="" ng-click="sortField='locationName'; reverse = !reverse">Location name</a></th>
+        <th><a href="" ng-click="sortField='mapLatLong'; reverse = !reverse">Map Position</a></th>
+    </tr>
+    <tr ng-repeat="island in islands | filter:query | orderBy:sortField:reverse">
+        <td>{{island.name}}</td>
+        <td>{{island.population}}</td>
+        <td>
+            <a href="https://www.google.com/maps/place/{{island.locationName}}">{{island.locationName}}</a>
+        </td>
+        <td>
+            <a href="https://maps.google.com?saddr=Current+Location&daddr={{island.mapLatLong}}">{{island.mapLatLong}}</a>
+        </td>
+    </tr>
+</table>
+
