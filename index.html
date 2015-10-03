@@ -5,28 +5,8 @@
     <title>Angular.js Example</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
-    <script>
-        var countryApp = angular.module('islandApp', ['ngRoute']);
-
-        countryApp.config(function ($routeProvider) {
-            $routeProvider.
-                    when('/', {
-                        templateUrl: 'island.html',
-                        controller: 'IslandsCtrl'
-                    }).
-                    otherwise({
-                        redirectTo: '/'
-                    });
-        });
-
-        countryApp.controller('IslandsCtrl', function ($scope, $http) {
-            $http.get('islands.json').success(function (data) {
-                $scope.islands = data;
-            });
-            $scope.reverse = true;
-            $scope.sortField = 'name';
-        });
-    </script>
+    <script src="controllers.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
 <div ng-view></div>
