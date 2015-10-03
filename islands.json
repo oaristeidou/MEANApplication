@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ithaca",
+        "population": 3000,
+        "mapLatLong": "38.428382, 20.673122"
+    },
+    {
+        "name": "Kythira",
+        "population": 3532,
+        "mapLatLong": "36.251178, 22.999198"
+    },
+    {
+        "name": "Zakynthos",
+        "population": 38883,
+        "mapLatLong": "37.790412, 20.784008"
+    }
+]
