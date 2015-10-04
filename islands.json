@@ -4,20 +4,23 @@
         "population": 3000,
         "mapLatLong": "38.428382, 20.673122",
         "locationName": "Ithaca, Griechenland",
-        "img": "images/ithaka.jpg"
+        "img": "images/ithaka.jpg",
+        "shortDesc": "Ithaca or Ithaka (/ˈɪθəkə/; Greek: Ιθάκη, Ithakē [iˈθaci]) is a Greek island located in the Ionian Sea, off the northeast coast of Kefalonia and to the west of continental Greece."
     },
     {
         "name": "Kythira",
         "population": 3532,
         "mapLatLong": "36.251178, 22.999198",
         "locationName": "Kythira, Griechenland",
-        "img": "images/kythira.jpg"
+        "img": "images/kythira.jpg",
+        "shortDesc": "Kythira (Greek: Κύθηρα, also transliterated as Cythera, Kythera and Kithira[2]) is an island in Greece lying opposite the south-eastern tip of the Peloponnese peninsula. It is traditionally listed as one of the seven main Ionian Islands, although it is distant from the main group. Administratively, it belongs to the Islands regional unit, which is part of the Attica region (although at large distance from Attica itself)."
     },
     {
         "name": "Zakynthos",
         "population": 38883,
         "mapLatLong": "37.790412, 20.784008",
         "locationName": "Zakynthos, Griechenland",
-        "img": "images/zakythos.jpg"
+        "img": "images/zakythos.jpg",
+        "shortDesc": "Zakynthos (Greek: Ζάκυνθος [ˈzacinθos]) or Zante (/ˈzɑːnti, -teɪ, ˈzæn-/; from Venetian) is a Greek island in the Ionian Sea. It is the third largest of the Ionian Islands. Zakynthos is a separate regional unit of the Ionian Islands region, and its only municipality. It covers an area of 410 km2 (158 sq mi) and its coastline is roughly 123 km (76 mi) in length. The name, like all similar names ending in -nthos, is pre-Mycenaean or Pelasgian in origin. In Greek mythology the island was said to be named after Zakynthos, the son of a legendary Arcadian chief Dardanus."
     }
 ]
