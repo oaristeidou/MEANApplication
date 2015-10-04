@@ -1,13 +1,12 @@
 <div id="searchMachine">
-    <input ng-model="query" type="text" placeholder="search an island">
+    <input ng-model="query" type="text" placeholder="Search an island">
 </div>
 
 <br>
-<a href="" ng-click="sortField='name'; reverse = !reverse">Image</a>
-<a href="" ng-click="sortField='name'; reverse = !reverse">Island</a>
-<a href="" ng-click="sortField='population'; reverse = !reverse">Population</a>
-<a href="" ng-click="sortField='locationName'; reverse = !reverse">Location name</a>
-<a href="" ng-click="sortField='mapLatLong'; reverse = !reverse">Map Position</a>
+<a href="" ng-click="sortField='name'; reverse = !reverse" class="button button-blue"><span>Image</span></a>
+<a href="" ng-click="sortField='name'; reverse = !reverse" class="button button-blue"><span>Island</span></a>
+<a href="" ng-click="sortField='population'; reverse = !reverse" class="button button-blue"><span>Population</span></a>
+<a href="" ng-click="sortField='locationName'; reverse = !reverse" class="button button-blue"><span>Location name</span></a>
 <br>
 <ul>
     <li ng-repeat="island in islands | filter:query | orderBy:sortField:reverse">
