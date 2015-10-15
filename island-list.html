@@ -8,16 +8,14 @@
 <a href="" ng-click="sortField='population'; reverse = !reverse" class="button button-blue"><span>Population</span></a>
 <a href="" ng-click="sortField='locationName'; reverse = !reverse" class="button button-blue"><span>Location name</span></a>
 <br>
-<ul>
-    <li ng-repeat="island in islands | filter:query | orderBy:sortField:reverse">
+<ul id="islandList">
+    <li ng-repeat="island in islands | filter:query | orderBy:sortField:reverse"
+        ng-click="$location.path('#/{{island.name}}')">
         <img ng-src="{{island.img}}" width="70">
-
-        <h3>{{island.name}}</h3>
+        <a href="#/{{island.name}}">{{island.name}}</a>
 
         <p>Population: {{island.population}}</p>
-
         <p>{{island.shortDesc}}</p>
-        <a href="https://www.google.com/maps/place/{{island.locationName}}">{{island.locationName}}</a>
     </li>
 </ul>
 

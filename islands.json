@@ -2,25 +2,79 @@
     {
         "name": "Ithaca",
         "population": 3000,
-        "mapLatLong": "38.428382, 20.673122",
+        "googleMapInfo": {
+            "mapPoint": {
+                "latitude": 38.4284603,
+                "longitude": 20.6764877
+            },
+            "center": {
+                "latitude": 39,
+                "longitude": 21
+            },
+            "zoom": 7,
+            "options": {
+                "draggable": true
+            },
+            "windowDetails": "Population (2011) Total 3,231<br>Density 27/km2 (71/sq mi)"
+        },
+
         "locationName": "Ithaca, Griechenland",
         "img": "images/ithaka.jpg",
-        "shortDesc": "Ithaca or Ithaka (/ˈɪθəkə/; Greek: Ιθάκη, Ithakē [iˈθaci]) is a Greek island located in the Ionian Sea, off the northeast coast of Kefalonia and to the west of continental Greece."
+        "shortDesc": "Ithaca or Ithaka (/ˈɪθəkə/; Greek: Ιθάκη, Ithakē [iˈθaci]) is a Greek island located in the Ionian Sea, off the northeast coast of Kefalonia and to the west of continental Greece.",
+        "longDesc": "Ithaca or Ithaka (/ˈɪθəkə/; Greek: Ιθάκη, Ithakē [iˈθaci]) is a Greek island located in the Ionian Sea, off the northeast coast of Kefalonia and to the west of continental Greece. Ithaca has an area of 120 square kilometres (46 sq mi) and a little more than three thousand inhabitants. It is the second-smallest of seven main Ionian Islands, after Paxi. Ithaka is a separate regional unit of the Ionian Islands region, and the only municipality of the regional unit. The capital, Vathy or Ithaki, has one of the world's largest natural harbours. Modern Ithaca is generally identified with Homer's Ithaca, the home of Odysseus, whose delayed return to the island is one of the elements of the Odyssey's plot."
     },
     {
         "name": "Kythira",
         "population": 3532,
-        "mapLatLong": "36.251178, 22.999198",
+        "googleMapInfo": {
+            "mapPoint": {
+                "latitude": 36.25,
+                "longitude": 23
+            },
+            "center": {
+                "latitude": 37,
+                "longitude": 23
+            },
+            "zoom": 8,
+            "options": {
+                "draggable": true
+            },
+            "windowDetails": "Population (2011) Total 4,041 Density 13/km2 (35/sq mi)"
+        },
+        "location": {
+            "latitude": 36.25,
+            "longitude": 23
+        },
         "locationName": "Kythira, Griechenland",
         "img": "images/kythira.jpg",
-        "shortDesc": "Kythira (Greek: Κύθηρα, also transliterated as Cythera, Kythera and Kithira[2]) is an island in Greece lying opposite the south-eastern tip of the Peloponnese peninsula. It is traditionally listed as one of the seven main Ionian Islands, although it is distant from the main group. Administratively, it belongs to the Islands regional unit, which is part of the Attica region (although at large distance from Attica itself)."
+        "shortDesc": "Kythira (Greek: Κύθηρα, also transliterated as Cythera, Kythera and Kithira[2]) is an island in Greece lying opposite the south-eastern tip of the Peloponnese peninsula. It is traditionally listed as one of the seven main Ionian Islands, although it is distant from the main group. Administratively, it belongs to the Islands regional unit, which is part of the Attica region (although at large distance from Attica itself).",
+        "longDesc": "Kythira (/kɨˈθɪrə/; Greek: Κύθηρα, also transliterated as Cythera, Kythera and Kithira[2]) is an island in Greece lying opposite the south-eastern tip of the Peloponnese peninsula. It is traditionally listed as one of the seven main Ionian Islands, although it is distant from the main group. Administratively, it belongs to the Islands regional unit, which is part of the Attica region (although at large distance from Attica itself). For many centuries, while naval travel was the only means for transportation, the island possessed a strategic location. From ancient times until the mid 19th century, Kythira was a crossroads of merchants, sailors, and conquerors. As such, it has had a long and varied history and has been influenced by many civilisations and cultures. This is reflected in its architecture (a blend of traditional, Aegean and Venetian elements), as well as the traditions and customs, influenced by centuries of coexistence of the Greek, Venetian, and Ottoman cultures."
     },
     {
         "name": "Zakynthos",
         "population": 38883,
-        "mapLatLong": "37.790412, 20.784008",
+        "googleMapInfo": {
+            "mapPoint": {
+                "latitude": 37.7911386,
+                "longitude": 20.7837673
+            },
+            "center": {
+                "latitude": 38,
+                "longitude": 21
+            },
+            "zoom": 8,
+            "options": {
+                "draggable": true
+            },
+            "windowDetails": "Population (2011) Total 40,759 Density 100/km2 (260/sq mi)"
+        },
+        "location": {
+            "latitude": 37.7911386,
+            "longitude": 20.7837673
+        },
         "locationName": "Zakynthos, Griechenland",
         "img": "images/zakythos.jpg",
-        "shortDesc": "Zakynthos (Greek: Ζάκυνθος [ˈzacinθos]) or Zante (/ˈzɑːnti, -teɪ, ˈzæn-/; from Venetian) is a Greek island in the Ionian Sea. It is the third largest of the Ionian Islands. Zakynthos is a separate regional unit of the Ionian Islands region, and its only municipality. It covers an area of 410 km2 (158 sq mi) and its coastline is roughly 123 km (76 mi) in length. The name, like all similar names ending in -nthos, is pre-Mycenaean or Pelasgian in origin. In Greek mythology the island was said to be named after Zakynthos, the son of a legendary Arcadian chief Dardanus."
+        "shortDesc": "Zakynthos (Greek: Ζάκυνθος [ˈzacinθos]) or Zante (/ˈzɑːnti, -teɪ, ˈzæn-/; from Venetian) is a Greek island in the Ionian Sea. It is the third largest of the Ionian Islands. Zakynthos is a separate regional unit of the Ionian Islands region, and its only municipality. It covers an area of 410 km2 (158 sq mi) and its coastline is roughly 123 km (76 mi) in length. The name, like all similar names ending in -nthos, is pre-Mycenaean or Pelasgian in origin. In Greek mythology the island was said to be named after Zakynthos, the son of a legendary Arcadian chief Dardanus.",
+        "longDesc": "Zakynthos (Greek: Ζάκυνθος [ˈzacinθos] ( listen)) or Zante (/ˈzɑːnti, -teɪ, ˈzæn-/; from Venetian) is a Greek island in the Ionian Sea. It is the third largest of the Ionian Islands. Zakynthos is a separate regional unit of the Ionian Islands region, and its only municipality. It covers an area of 410 km2 (158 sq mi) and its coastline is roughly 123 km (76 mi) in length. The name, like all similar names ending in -nthos, is pre-Mycenaean or Pelasgian in origin. In Greek mythology the island was said to be named after Zakynthos, the son of a legendary Arcadian chief Dardanus. Zakynthos is a tourist destination, with an international airport served by many charter flights from northern Europe. The island's nickname is To fioro tou Levante (Italian: Il fiore di Levante, English: The flower of the East), given by the Venetians."
     }
 ]

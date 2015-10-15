@@ -1,0 +1,20 @@
+<h1>{{island.name}}</h1>
+<ul>
+    <li>
+        <img ng-src="{{island.img}}" width="70">
+
+        <p>Population: {{island.population}}</p>
+
+        <p>{{island.longDesc}}{{marker.coords}}</p>
+
+        <ui-gmap-google-map center="island.googleMapInfo.center" zoom="island.googleMapInfo.zoom"
+                            options="island.googleMapInfo.options">
+            <ui-gmap-marker coords="island.googleMapInfo.mapPoint" options="island.googleMapInfo.options"
+                            idkey="island.name" click="onClick()">
+                <ui-gmap-window options="windowOptions" closeClick="closeClick()">
+                    <div>{{island.googleMapInfo.windowDetails}}</div>
+                </ui-gmap-window>
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+    </li>
+</ul>

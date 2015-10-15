@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-div {
+#ngView {
     margin: 20px;
 }
 
 ul {
-    list-style-type: none;
+    /*list-style-type: none;*/
     width: 1500px;
     border: 1px solid #b2aaee;
 }
@@ -29,11 +29,6 @@ li p {
 li {
     padding: 10px;
     overflow: auto;
-}
-
-li:hover {
-    background: #b2aaee;
-    cursor: pointer;
 }
 
 .style-1 input[type="text"] {
@@ -155,4 +150,23 @@ input[type=search] {
 
 .button-blue:active {
     background: #4477a1;
+}
+
+#searchMachine {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.angular-google-map-container {
+    height: 450px;
+    width: 800px;
+    margin: 10px 10px 10px;
+}
+
+.ui-gmap-window {
+    font-family: sans-serif;
+    top: 9px;
+    position: absolute;
+    left: 15px;
+    width: 261px;
 }
