@@ -15,7 +15,7 @@ islandControllers.controller('IslandsCtrl', function ($scope, $http) {
 });
 
 islandControllers.controller('IslandDetailCtrl', function ($scope, $routeParams, $http) {
-    $http.get('islands.json').success(function (data) {
+    $http.get('/island').success(function (data) {
         $scope.island = data.filter(function (entry) {
             return entry.name === $routeParams.islandName;
         })[0];
